@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gagagagag"
+    tools:context=".GaaamyTvoFragment">
+
+
+    <ImageView
+        android:id="@+id/img_6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_006hyhy"
+        app:layout_constraintBottom_toTopOf="@+id/img_9"
+        app:layout_constraintEnd_toEndOf="@id/gtjojgtjgtjiogt"
+        app:layout_constraintStart_toEndOf="@id/img_5"
+        app:layout_constraintTop_toBottomOf="@id/img_3" />
+
+    <ImageView
+        android:id="@+id/img_7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_008gtgt"
+        app:layout_constraintBottom_toTopOf="@id/ghohiothigthgtih"
+        app:layout_constraintEnd_toStartOf="@id/img_8"
+        app:layout_constraintStart_toStartOf="@id/gtjgtojgtjgtjiogt"
+        app:layout_constraintTop_toBottomOf="@id/img_4" />
+
+    <ImageView
+        android:id="@+id/img_8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_009gttggtgt"
+        app:layout_constraintBottom_toTopOf="@id/ghohiothigthgtih"
+        app:layout_constraintEnd_toStartOf="@id/img_9"
+        app:layout_constraintStart_toEndOf="@id/img_7"
+        app:layout_constraintTop_toBottomOf="@id/img_5" />
+
+    <ImageView
+        android:id="@+id/img_9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_007gtgtgt"
+        app:layout_constraintBottom_toTopOf="@id/ghohiothigthgtih"
+        app:layout_constraintEnd_toEndOf="@id/gtjojgtjgtjiogt"
+        app:layout_constraintStart_toEndOf="@id/img_8"
+        app:layout_constraintTop_toBottomOf="@id/img_6" />
+
+    <TextView
+        android:id="@+id/ghohiothigthgtih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:background="@color/purple_500"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:text="get BONUS\ncollect airplane parts \nand get bonus"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/tjgjtgoitgjjgtij"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:text="0"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/ghohiothigthgtih"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_9" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtgtihitgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/tjgjtgoitgjjgtij"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtjojgtjgtjiogt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtjgtojgtjgtjiogt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/jgtjgtjtgjgtjigt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_001gtgt"
+        app:layout_constraintBottom_toTopOf="@id/img_4"
+        app:layout_constraintEnd_toStartOf="@id/img_2"
+        app:layout_constraintStart_toStartOf="@id/gtjgtojgtjgtjiogt"
+        app:layout_constraintTop_toTopOf="@id/gtgtihitgt" />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_005hyjuuj"
+        app:layout_constraintBottom_toTopOf="@id/img_5"
+        app:layout_constraintEnd_toStartOf="@id/img_3"
+        app:layout_constraintStart_toEndOf="@id/img_1"
+        app:layout_constraintTop_toTopOf="@id/gtgtihitgt" />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_003gt"
+        app:layout_constraintBottom_toTopOf="@id/img_6"
+        app:layout_constraintEnd_toEndOf="@id/gtjojgtjgtjiogt"
+        app:layout_constraintStart_toEndOf="@id/img_2"
+        app:layout_constraintTop_toTopOf="@id/gtgtihitgt" />
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_004gthy"
+        app:layout_constraintBottom_toTopOf="@+id/img_7"
+        app:layout_constraintEnd_toStartOf="@id/img_5"
+        app:layout_constraintStart_toStartOf="@id/gtjgtojgtjgtjiogt"
+        app:layout_constraintTop_toBottomOf="@id/img_1" />
+
+    <ImageView
+        android:id="@+id/img_5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_part_002ghy"
+        app:layout_constraintBottom_toTopOf="@+id/img_8"
+        app:layout_constraintEnd_toStartOf="@id/img_6"
+        app:layout_constraintStart_toEndOf="@id/img_4"
+        app:layout_constraintTop_toBottomOf="@id/img_2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

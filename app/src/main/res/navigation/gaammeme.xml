@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaammeme"
+    app:startDestination="@id/gaaaammyOneFragment">
+
+    <fragment
+        android:id="@+id/gaaaammyOneFragment"
+        android:name="com.miHoYo.Genshin.GaaaammyOneFragment"
+        android:label="fragment_gaaaammy_one"
+        tools:layout="@layout/fragment_gaaaammy_one" >
+        <action
+            android:id="@+id/action_gaaaammyOneFragment_to_gaaamyTvoFragment"
+            app:destination="@id/gaaamyTvoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaamyTvoFragment"
+        android:name="com.miHoYo.Genshin.GaaamyTvoFragment"
+        android:label="fragment_gaaamy_tvo"
+        tools:layout="@layout/fragment_gaaamy_tvo" >
+        <action
+            android:id="@+id/action_gaaamyTvoFragment_to_gaaamiThreeFragment"
+            app:destination="@id/gaaamiThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaamiThreeFragment"
+        android:name="com.miHoYo.Genshin.GaaamiThreeFragment"
+        android:label="fragment_gaaami_three"
+        tools:layout="@layout/fragment_gaaami_three" >
+        <action
+            android:id="@+id/action_gaaamiThreeFragment_to_gaaaammyOneFragment"
+            app:destination="@id/gaaaammyOneFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaaammyOneFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

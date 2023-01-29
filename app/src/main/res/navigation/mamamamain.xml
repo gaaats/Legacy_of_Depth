@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mamamamain"
+    app:startDestination="@id/maaaaaFragment">
+
+    <fragment
+        android:id="@+id/maaaaaFragment"
+        android:name="com.miHoYo.Genshin.MaaaaaFragment"
+        android:label="fragment_maaaaa"
+        tools:layout="@layout/fragment_maaaaa" >
+        <action
+            android:id="@+id/action_maaaaaFragment_to_cooontntnttnFragment"
+            app:destination="@id/cooontntnttnFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooontntnttnFragment"
+        android:name="com.miHoYo.Genshin.CooontntnttnFragment"
+        android:label="fragment_cooontntnttn"
+        tools:layout="@layout/fragment_cooontntnttn" >
+        <action
+            android:id="@+id/action_cooontntnttnFragment_to_seeeccMaaaaFragment"
+            app:destination="@id/seeeccMaaaaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeeccMaaaaFragment"
+        android:name="com.miHoYo.Genshin.SeeeccMaaaaFragment"
+        android:label="fragment_seeecc_maaaa"
+        tools:layout="@layout/fragment_seeecc_maaaa" >
+        <action
+            android:id="@+id/action_seeeccMaaaaFragment_to_prririrriFragment"
+            app:destination="@id/prririrriFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prririrriFragment"
+        android:name="com.miHoYo.Genshin.PrririrriFragment"
+        android:label="fragment_prririrri"
+        tools:layout="@layout/fragment_prririrri" >
+        <action
+            android:id="@+id/action_prririrriFragment_to_ffifiifFragment"
+            app:destination="@id/ffifiifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ffifiifFragment"
+        android:name="com.miHoYo.Genshin.FfifiifFragment"
+        android:label="fragment_ffifiif"
+        tools:layout="@layout/fragment_ffifiif" />
+</navigation>

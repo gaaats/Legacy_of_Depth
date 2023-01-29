@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Legacy of Depth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">3420779471573389</string>
+    <string name="facebook_client_token">9960272215b2f073f380426926a35225</string>
+</resources>
