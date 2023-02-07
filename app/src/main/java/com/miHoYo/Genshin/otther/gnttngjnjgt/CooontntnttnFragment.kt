@@ -1,4 +1,4 @@
-package com.miHoYo.Genshin
+package com.miHoYo.Genshin.otther.gnttngjnjgt
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,8 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.miHoYo.Genshin.mododoel.ViModgtgtgt
-import com.miHoYo.Genshin.otther.Utilgtgtgt.gt5gtgtCo
+import com.miHoYo.Genshin.R
+import com.miHoYo.Genshin.mododoel.JOIjfrfruhrffrhrfhufr
+import com.miHoYo.Genshin.otther.Utilgtgtgt.gthyujujuj
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.core.qualifier.named
@@ -34,14 +35,14 @@ class CooontntnttnFragment : Fragment() {
 
 
     val shareP2hhy2hy: SharedPreferences by inject(named("SharedPreferences"))
-    val viewMainModeltgtgtgt by activityViewModel<ViModgtgtgt>(named("MainModel"))
+    val viewMainModeltgtgtgt by activityViewModel<JOIjfrfruhrffrhrfhufr>(named("MainModel"))
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        viewMainModeltgtgtgt.countryCode.observe(viewLifecycleOwner) {
+        viewMainModeltgtgtgt.vbfrfrfgyfrgfrgrfgyfr.observe(viewLifecycleOwner) {
             if (it!=null) {
-                hyyhhyhy = it.cou
-                shareP2hhy2hy.edit().putString(gt5gtgtCo, hyyhhyhy).apply()
+                hyyhhyhy = it.nhhgtugt
+                shareP2hhy2hy.edit().putString(gthyujujuj, hyyhhyhy).apply()
                 gtjjtgjgtjgtj()
             }
         }

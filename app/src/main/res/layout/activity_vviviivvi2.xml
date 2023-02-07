@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VviviivviActivity2">
+    tools:context=".otther.gnttngjnjgt.VviviivviActivity2">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

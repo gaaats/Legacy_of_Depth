@@ -1,4 +1,4 @@
-package com.miHoYo.Genshin
+package com.miHoYo.Genshin.otther.gnttngjnjgt
 
 import android.content.Context
 import android.os.Bundle
@@ -7,7 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.miHoYo.Genshin.mododoel.ViModgtgtgt
+import com.miHoYo.Genshin.R
+import com.miHoYo.Genshin.mododoel.JOIjfrfruhrffrhrfhufr
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.core.qualifier.named
 
@@ -24,7 +25,7 @@ class MaaaaaFragment : Fragment() {
 
     private lateinit var mContext: Context
 
-    val hyjujkiikik by activityViewModel<ViModgtgtgt>(named("MainModel"))
+    val hyjujkiikik by activityViewModel<JOIjfrfruhrffrhrfhufr>(named("MainModel"))
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

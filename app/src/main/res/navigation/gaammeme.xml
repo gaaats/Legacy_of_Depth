@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/gaaaammyOneFragment"
-        android:name="com.miHoYo.Genshin.GaaaammyOneFragment"
+        android:name="com.miHoYo.Genshin.otther.gtgthugthugt.GaaaammyOneFragment"
         android:label="fragment_gaaaammy_one"
         tools:layout="@layout/fragment_gaaaammy_one" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaamyTvoFragment"
-        android:name="com.miHoYo.Genshin.GaaamyTvoFragment"
+        android:name="com.miHoYo.Genshin.otther.gtgthugthugt.GaaamyTvoFragment"
         android:label="fragment_gaaamy_tvo"
         tools:layout="@layout/fragment_gaaamy_tvo" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/gaaamiThreeFragment"
-        android:name="com.miHoYo.Genshin.GaaamiThreeFragment"
+        android:name="com.miHoYo.Genshin.otther.gtgthugthugt.GaaamiThreeFragment"
         android:label="fragment_gaaami_three"
         tools:layout="@layout/fragment_gaaami_three" >
         <action

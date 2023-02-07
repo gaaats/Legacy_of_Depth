@@ -1,4 +1,4 @@
-package com.miHoYo.Genshin
+package com.miHoYo.Genshin.otther.gnttngjnjgt
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,8 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.miHoYo.Genshin.mododoel.ViModgtgtgt
-import com.miHoYo.Genshin.otther.Utilgtgtgt.appsgtgtgt
+import com.miHoYo.Genshin.R
+import com.miHoYo.Genshin.mododoel.JOIjfrfruhrffrhrfhufr
+import com.miHoYo.Genshin.otther.Utilgtgtgt.hyujujuj
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.core.qualifier.named
@@ -17,14 +18,14 @@ import org.koin.core.qualifier.named
 
 class PrririrriFragment : Fragment() {
 
-    val viewMainModel by activityViewModel<ViModgtgtgt>(named("MainModel"))
-    val shareP: SharedPreferences by inject(named("SharedPreferences"))
-    lateinit var appCamp: String
-    private lateinit var mContext: Context
+    val gthughgt by activityViewModel<JOIjfrfruhrffrhrfhufr>(named("MainModel"))
+    val gtjhgthgt: SharedPreferences by inject(named("SharedPreferences"))
+    lateinit var bvfrfgrfgy: String
+    private lateinit var gtjtgtu: Context
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        mContext = context
+        gtjtgtu = context
     }
 
     override fun onCreateView(
@@ -37,15 +38,15 @@ class PrririrriFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val hyhyhyyh5hy = shareP.getString(appsgtgtgt, null)
-        val appsCamphyhyhy2hy2 = shareP.getString("appCamp", null)
+        val hyhyhyyh5hy = gtjhgthgt.getString(hyujujuj, null)
+        val appsCamphyhyhy2hy2 = gtjhgthgt.getString("appCamp", null)
 
         if (hyhyhyyh5hy=="1" &&appsCamphyhyhy2hy2 == null) {
-            viewMainModel.conversgthyyh(mContext)
-            viewMainModel.appsDatatggttggt.observe(viewLifecycleOwner) {
+            gthughgt.gntgtiugtuhgtihgu(gtjtgtu)
+            gthughgt.gntgtihgthuugt.observe(viewLifecycleOwner) {
                 if (it != null) {
-                    appCamp = it.toString()
-                    shareP.edit().putString("appCamp", appCamp).apply()
+                    bvfrfgrfgy = it.toString()
+                    gtjhgthgt.edit().putString("appCamp", bvfrfgrfgy).apply()
                     gjtitgjtgjjgtjgti()
                 }
             }

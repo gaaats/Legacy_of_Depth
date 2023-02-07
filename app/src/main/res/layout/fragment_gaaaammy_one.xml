@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/gagagagag"
     android:layout_height="match_parent"
-    tools:context=".GaaaammyOneFragment">
+    android:background="@drawable/gagagagag"
+    tools:context=".otther.gtgthugthugt.GaaaammyOneFragment">
+
+    <ImageView
+        android:id="@+id/onnnnn1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jo"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ff"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintStart_toEndOf="@id/onnnnn1"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn3"/>
+
+    <ImageView
+        android:id="@+id/onnnnn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rr"
+        app:layout_constraintBottom_toTopOf="@id/gthgtihthgthgthugt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/onnnnn2" />
 
     <ImageView
         android:id="@+id/gthgtihthgthgthugt"
@@ -20,10 +47,10 @@
 
     <ProgressBar
         android:id="@+id/gtguhtighgtihtg"
-        android:layout_marginTop="16dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="200dp"
         android:layout_height="10dp"
+        android:layout_marginTop="16dp"
         android:progressDrawable="@drawable/sasha_custom_prog_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +74,52 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/gtguhtighgtihtg" />
 
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hhyhyyjuujuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:fontFamily="@font/montserrat_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/num"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn2" />
+
+    <ImageView
+        android:id="@+id/onnnnn5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yy"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintStart_toEndOf="@id/onnnnn1"
+        app:layout_constraintEnd_toStartOf="@id/onnnnn3"/>
+
+    <ImageView
+        android:id="@+id/onnnnn6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jo"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/jhiyyhjyjhhyjiyjhiy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/onnnnn2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

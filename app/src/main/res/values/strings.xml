@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Legacy of Depth</string>
+    <string name="app_name">Ultra Avia</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="facebook_app_id">3420779471573389</string>
-    <string name="facebook_client_token">9960272215b2f073f380426926a35225</string>
+    <string name="hyijyhjhyiyh">3420779471573389</string>
+    <string name="fb_login_protocol_scheme">fb3420779471573389</string>
+    <string name="gtjijtgjgtijigt">9960272215b2f073f380426926a35225</string>
 </resources>

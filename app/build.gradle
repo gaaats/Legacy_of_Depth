@@ -15,11 +15,15 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
+
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            shrinkResources true
+            minifyEnabled true
+            multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -53,9 +57,7 @@ dependencies {
     // Networking
     implementation "com.squareup.okhttp3:okhttp:{latest-version}"
     implementation "com.squareup.okhttp3:logging-interceptor:4.10.0"
-
-    //branch
-    implementation 'io.branch.sdk.android:library:5.+'
+    
     //facebook
     implementation 'com.facebook.android:facebook-android-sdk:latest.release'
 

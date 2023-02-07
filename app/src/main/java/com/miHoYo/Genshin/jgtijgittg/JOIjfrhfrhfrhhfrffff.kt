@@ -5,12 +5,12 @@ import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.miHoYo.Genshin.fkrgtigt.BeamModel
-import com.miHoYo.Genshin.mamamama.ApiInterfacegttgtg
-import com.miHoYo.Genshin.mamamama.CountryRepogtgtgt
-import com.miHoYo.Genshin.mamamama.DevRepogtgtgt5
-import com.miHoYo.Genshin.mamamama.HostInterfacegttggt
-import com.miHoYo.Genshin.mododoel.ViModgtgtgt
+import com.miHoYo.Genshin.fkrgtigt.JOIFrrfhhrffr
+import com.miHoYo.Genshin.mamamama.IOJfhfrrfh
+import com.miHoYo.Genshin.mamamama.NJnfggtjitgj
+import com.miHoYo.Genshin.mamamama.Ndgfgyfrgyrfg
+import com.miHoYo.Genshin.mamamama.Ngtugthgttfrgfrgyrf
+import com.miHoYo.Genshin.mododoel.JOIjfrfruhrffrhrfhufr
 import org.koin.android.ext.koin.androidApplication
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.qualifier.named
@@ -21,23 +21,23 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 val viewModelModulegttgtggt = module {
     viewModel (named("MainModel")){
-        ViModgtgtgt((get(named("CountryRep"))), get(named("DevRep")), get(named("SharedPreferences")), get())
+        JOIjfrfruhrffrhrfhufr((get(named("CountryRep"))), get(named("DevRep")), get(named("SharedPreferences")), get())
     }
     viewModel(named("BeamModel")) {
-        BeamModel(get())
+        JOIFrrfhhrffr(get())
     }
 }
 
 val bghhyhyhyju = module {
 
-    single  <HostInterfacegttggt> (named("HostInter")){
+    single  <Ngtugthgttfrgfrgyrf> (named("HostInter")){
         get<Retrofit>(named("RetroDev"))
-            .create(HostInterfacegttggt::class.java)
+            .create(Ngtugthgttfrgfrgyrf::class.java)
     }
 
-    single <ApiInterfacegttgtg> (named("ApiInter")) {
+    single <IOJfhfrrfh> (named("ApiInter")) {
         get<Retrofit>(named("RetroCountry"))
-            .create(ApiInterfacegttgtg::class.java)
+            .create(IOJfhfrrfh::class.java)
     }
     single<Retrofit>(named("RetroCountry")) {
         Retrofit.Builder()
@@ -53,11 +53,11 @@ val bghhyhyhyju = module {
     }
 
     factory (named("CountryRep")) {
-        CountryRepogtgtgt(get(named("ApiInter")))
+        NJnfggtjitgj(get(named("ApiInter")))
     }
 
     factory  (named("DevRep")){
-        DevRepogtgtgt5(get(named("HostInter")))
+        Ndgfgyfrgyrfg(get(named("HostInter")))
     }
     single{
         hyhyyhyhhy()

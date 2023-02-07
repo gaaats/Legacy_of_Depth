@@ -1,4 +1,4 @@
-package com.miHoYo.Genshin
+package com.miHoYo.Genshin.otther.gtgthugthugt
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
+import com.miHoYo.Genshin.R
 import com.miHoYo.Genshin.databinding.FragmentGaaaammyOneBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

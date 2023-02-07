@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/maaaaaFragment"
-        android:name="com.miHoYo.Genshin.MaaaaaFragment"
+        android:name="com.miHoYo.Genshin.otther.gnttngjnjgt.MaaaaaFragment"
         android:label="fragment_maaaaa"
         tools:layout="@layout/fragment_maaaaa" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/cooontntnttnFragment"
-        android:name="com.miHoYo.Genshin.CooontntnttnFragment"
+        android:name="com.miHoYo.Genshin.otther.gnttngjnjgt.CooontntnttnFragment"
         android:label="fragment_cooontntnttn"
         tools:layout="@layout/fragment_cooontntnttn" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/seeeccMaaaaFragment"
-        android:name="com.miHoYo.Genshin.SeeeccMaaaaFragment"
+        android:name="com.miHoYo.Genshin.otther.gnttngjnjgt.SeeeccMaaaaFragment"
         android:label="fragment_seeecc_maaaa"
         tools:layout="@layout/fragment_seeecc_maaaa" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/prririrriFragment"
-        android:name="com.miHoYo.Genshin.PrririrriFragment"
+        android:name="com.miHoYo.Genshin.otther.gnttngjnjgt.PrririrriFragment"
         android:label="fragment_prririrri"
         tools:layout="@layout/fragment_prririrri" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/ffifiifFragment"
-        android:name="com.miHoYo.Genshin.FfifiifFragment"
+        android:name="com.miHoYo.Genshin.otther.gnttngjnjgt.FfifiifFragment"
         android:label="fragment_ffifiif"
         tools:layout="@layout/fragment_ffifiif" />
 </navigation>

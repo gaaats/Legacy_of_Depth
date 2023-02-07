@@ -9,7 +9,7 @@ import com.onesignal.OneSignal
 import org.json.JSONException
 import org.json.JSONObject
 
-class BeamModel(application: Application): ViewModel() {
+class JOIFrrfhhrffr(application: Application): ViewModel() {
     val pmgtgttg = application.packageManager
     fun webSetgtgtg(webViewgttggt: WebView): WebSettings{
        val vfbgbhyhyyho = webViewgttggt.settings
